@@ -167,6 +167,9 @@ paths:
                   - alg: -257
                     type: public-key
                 excludeCredentials: []
+                authenticator selection:
+                    requireResidentKey: true 
+                    userVerification: preferred
                 attestation: none
                 extensions: {}
         400:
